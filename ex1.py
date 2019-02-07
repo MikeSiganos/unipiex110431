@@ -19,5 +19,4 @@ sumIntervals([[0, 3], [6, 11], [0, 6], [11, 12]])  # 12
 sumIntervals([[1, 2], [6, 8], [2, 15]])  # 14
 sumIntervals([[1, 4], [7, 10]])  # 6
 sumIntervals([[10, 20]])  # 10
-
 exit(0)
