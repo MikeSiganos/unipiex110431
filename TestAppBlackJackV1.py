@@ -20,9 +20,9 @@ ans="y"
 \# comment 5
 while ans=="y" and deck <> []:
 	pl+=deck.pop()
-	comp+=deck.pop()\# comment 6
+	comp+=deck.pop()
 	print "You: ",pl
-	print "Computer: ",comp
+	print "Computer: ",comp\# comment 6
 	print "# comment 7"
 	print "\# comment 8"
 	if deck <> []:

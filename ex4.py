@@ -153,7 +153,10 @@ def times(x):
     return x
 
 
-six(times(eight()))
-two(minus(nine()))
-nine(plus(nine()))
+six(times(eight()))  # 48
+two(minus(seven()))  # -5
+nine(plus(nine()))  # 18
+one(plus(four()))  # 5
+five(minus(three()))  # 2
+two(times(zero()))  # 0
 exit(0)
