@@ -1,4 +1,5 @@
 import random
+# comment 0
 
 fyllo=[i for i in range(1,11)]
 chroma=["C","S","H","D"]  # comment 1
@@ -17,18 +18,18 @@ comp=[]
 pl=[]
 ans="y"
 
-\# comment 5
-while ans=="y" and deck <> []:
+
+while ans=="y" and deck <> []:  # comment 5
 	pl+=deck.pop()
 	comp+=deck.pop()
-	print "You: ",pl
-	print "Computer: ",comp\# comment 6
-	print "# comment 7"
-	print "\# comment 8"
+	print "You: ",pl\# comment 6
+	print "Computer:\" # comment 7",comp
+	print "# comment 8"
+	print "\# comment 9"
 	if deck <> []:
-		ans=raw_input("Continue (y/n)? # comment 9 ")
+		ans=raw_input("Continue (y/n)? ")  # comment 10
 	else:
 		print "End!"
-		x=input("# comment 10")
+# x=input("Give a command... # Comment 11")
 
-# comment 11
+# comment 12

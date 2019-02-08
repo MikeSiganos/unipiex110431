@@ -14,9 +14,6 @@ def sumIntervals(x):
 
 
 sumIntervals([[1, 5], [11, 18], [0, 6], [16, 19], [5, 11], [6, 10]])  # 19
-sumIntervals([[1, 5], [10, 20], [1, 6], [16, 19], [5, 11]])  # 19
-sumIntervals([[0, 3], [6, 11], [0, 6], [11, 12]])  # 12
-sumIntervals([[1, 2], [6, 8], [2, 15]])  # 14
-sumIntervals([[1, 4], [7, 10]])  # 6
+sumIntervals([[0, 6], [5, 17], [7, 12]])  # 17
 sumIntervals([[10, 20]])  # 10
 exit(0)

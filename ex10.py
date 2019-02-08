@@ -1,6 +1,6 @@
 from urllib.request import urlopen
 
-url = input("Type a valid URL (Example--> https://students.cs.unipi.gr): ")
+url = input("Type a valid URL (Example--> https://github.com): ")
 html = urlopen(url).read()
 print("\nIn this code: \n", html, "\n")
 
